@@ -38,7 +38,7 @@ node {
 
 edge[interaction = "cc"] {
 	line-color: #FACD37;
-	mid-target-arrow-color: #FACD37;
+	mid-target-arrow-color: #DE3128;
 	opacity: 0.666;
 	z-index: 9;
 	width: 4;

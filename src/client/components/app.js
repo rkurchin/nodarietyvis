@@ -14,9 +14,12 @@ class AppComponent extends Component {
     const cy = new Cytoscape({
       elements,
       style,
+      //layout: { name: 'fcose' },
       layout: { name: 'preset' },
       selectionType: 'single',
-      boxSelectionEnabled: false
+      boxSelectionEnabled: false,
+      zoomingEnabled: true,
+      userZoomingEnabled: true,
     });
 
     cy.nodes().panify().ungrabify();
