@@ -11,6 +11,9 @@ edge {
 	width: 2;
 	z-index: 0;
 	overlay-opacity: 0;
+	mid-target-arrow-shape: triangle;
+	mid-target-arrow-color: #FACD37;
+
   events: no;
 }
 
@@ -20,7 +23,7 @@ node {
 	font-size: 9;
 	font-weight: bold;
 	min-zoomed-font-size: 4;
-	label: data(name);
+	label: data(family_name);
 	text-wrap: wrap;
 	text-max-width: 50;
 	text-valign: center;
@@ -35,9 +38,11 @@ node {
 
 edge[interaction = "cc"] {
 	line-color: #FACD37;
+	mid-target-arrow-color: #FACD37;
 	opacity: 0.666;
 	z-index: 9;
 	width: 4;
+	mid-target-arrow-shape: triangle;
 }
 
 node[NodeType = "Cheese"],
