@@ -1,10 +1,6 @@
-# Wine & Cheese Map
+# Nodariety visualization
 
-This is an app to view wine and cheese pairings through a [Cytoscape.js](https://js.cytoscape.org) visualisation.
-
-This app is a demo of the sort of functionality that Cytoscape.js allows you to easily add to your webapp.  This repository is MIT-licensed, like Cytoscape.js itself.
-
-The data was generated from recommendations in Max McCalman's book, [Cheese: A Connoisseur's Guide to the World's Best](https://www.amazon.ca/Cheese-Connoisseurs-Guide-Worlds-Best/dp/1400050340/ref=sr_1_3?s=books&ie=UTF8&qid=1416109370&sr=1-3).
+Based on wineandcheesemap.com
 
 ## Project organisation
 

@@ -90,6 +90,7 @@ class Controller {
       });
 
       const layout = nhood.layout({
+        //name: 'fcose',
         name: 'preset',
         positions: getOrgPos,
         fit: true,

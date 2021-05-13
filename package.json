@@ -1,7 +1,7 @@
 {
-  "name": "wineandcheesemap",
+  "name": "Nodariety",
   "version": "1.0.0",
-  "description": "A wine and cheese visualisation app",
+  "description": "What's named after who (two)",
   "main": "none",
   "browserslist": [
     "defaults"
@@ -26,14 +26,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cytoscape/wineandcheesemap.git"
+    "url": "git+https://github.com/rkurchin/nodarietyvis.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cytoscape/wineandcheesemap/issues"
+    "url": "https://github.com/kurchin/nodarietyvis/issues"
   },
-  "homepage": "https://github.com/cytoscape/wineandcheesemap#readme",
+  "homepage": "https://github.com/kurchin/nodarietyvis#readme",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
@@ -58,7 +58,10 @@
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "classnames": "^2.2.6",
+    "cose-base": "^2.0.0",
     "cytoscape": "^3.12.1",
+    "cytoscape-fcose": "^2.0.0",
+    "cytoscape-layout-utilities": "^1.0.2",
     "eventemitter3": "^4.0.0",
     "lodash.debounce": "^4.0.8",
     "lodash.memoize": "^4.1.2",
