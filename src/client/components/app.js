@@ -1,6 +1,8 @@
 import { h, Component } from 'preact';
 import { Controller } from '../controller';
 import Cytoscape from 'cytoscape';
+//import fcose from 'cytoscape-fcose';
+//Cytoscape.use( fcose );
 import { elements, style } from '../cy-conf';
 import CytoscapeComponent from './cytoscape';
 import { isDev } from '../env';
@@ -16,12 +18,14 @@ class AppComponent extends Component {
       style,
       //layout: { name: 'fcose' },
       layout: { name: 'preset' },
+      //layout: { name: 'grid' },
       selectionType: 'single',
       boxSelectionEnabled: false,
       zoomingEnabled: true,
       userZoomingEnabled: true,
     });
 
+    //cy.use(fcose)
     cy.nodes().panify().ungrabify();
 
     const controller = new Controller({ cy });
